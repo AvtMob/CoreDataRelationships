@@ -13,6 +13,12 @@
 		57B2872B2045CBA30011199A /* CoreDataRelationships.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57B287292045CBA30011199A /* CoreDataRelationships.xcdatamodeld */; };
 		57B2872D2045CBA30011199A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B2872C2045CBA30011199A /* Assets.xcassets */; };
 		57B287302045CBA30011199A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B2872E2045CBA30011199A /* LaunchScreen.storyboard */; };
+		57B2873E2045D1BF0011199A /* Phone+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B287382045D1BF0011199A /* Phone+CoreDataClass.swift */; };
+		57B2873F2045D1BF0011199A /* Phone+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B287392045D1BF0011199A /* Phone+CoreDataProperties.swift */; };
+		57B287402045D1BF0011199A /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2873A2045D1BF0011199A /* Person+CoreDataClass.swift */; };
+		57B287412045D1BF0011199A /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2873B2045D1BF0011199A /* Person+CoreDataProperties.swift */; };
+		57B287422045D1BF0011199A /* Friends+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2873C2045D1BF0011199A /* Friends+CoreDataClass.swift */; };
+		57B287432045D1BF0011199A /* Friends+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2873D2045D1BF0011199A /* Friends+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		57B2872C2045CBA30011199A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57B2872F2045CBA30011199A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57B287312045CBA30011199A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B287382045D1BF0011199A /* Phone+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Phone+CoreDataClass.swift"; sourceTree = "<group>"; };
+		57B287392045D1BF0011199A /* Phone+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Phone+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		57B2873A2045D1BF0011199A /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		57B2873B2045D1BF0011199A /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		57B2873C2045D1BF0011199A /* Friends+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friends+CoreDataClass.swift"; sourceTree = "<group>"; };
+		57B2873D2045D1BF0011199A /* Friends+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friends+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		57B287212045CBA30011199A /* CoreDataRelationships */ = {
 			isa = PBXGroup;
 			children = (
+				57B287372045D1A10011199A /* CoreData */,
 				57B287222045CBA30011199A /* AppDelegate.swift */,
 				57B287242045CBA30011199A /* ViewController.swift */,
 				57B287262045CBA30011199A /* Main.storyboard */,
@@ -65,6 +78,19 @@
 				57B287292045CBA30011199A /* CoreDataRelationships.xcdatamodeld */,
 			);
 			path = CoreDataRelationships;
+			sourceTree = "<group>";
+		};
+		57B287372045D1A10011199A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				57B287382045D1BF0011199A /* Phone+CoreDataClass.swift */,
+				57B287392045D1BF0011199A /* Phone+CoreDataProperties.swift */,
+				57B2873A2045D1BF0011199A /* Person+CoreDataClass.swift */,
+				57B2873B2045D1BF0011199A /* Person+CoreDataProperties.swift */,
+				57B2873C2045D1BF0011199A /* Friends+CoreDataClass.swift */,
+				57B2873D2045D1BF0011199A /* Friends+CoreDataProperties.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57B287432045D1BF0011199A /* Friends+CoreDataProperties.swift in Sources */,
+				57B287412045D1BF0011199A /* Person+CoreDataProperties.swift in Sources */,
 				57B287252045CBA30011199A /* ViewController.swift in Sources */,
 				57B2872B2045CBA30011199A /* CoreDataRelationships.xcdatamodeld in Sources */,
+				57B287402045D1BF0011199A /* Person+CoreDataClass.swift in Sources */,
+				57B2873E2045D1BF0011199A /* Phone+CoreDataClass.swift in Sources */,
+				57B287422045D1BF0011199A /* Friends+CoreDataClass.swift in Sources */,
+				57B2873F2045D1BF0011199A /* Phone+CoreDataProperties.swift in Sources */,
 				57B287232045CBA30011199A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
